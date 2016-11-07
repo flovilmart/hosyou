@@ -7,9 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2F0F9CA3CB8200322BCA37B0 /* Pods_HosyouTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0A6A199751CF5DA6D8C4E33 /* Pods_HosyouTests.framework */; };
 		4AD02E041DCFBA4E008D7CD5 /* Hosyou.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AD02DFA1DCFBA4D008D7CD5 /* Hosyou.framework */; };
-		4AD02E091DCFBA4E008D7CD5 /* HosyouTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AD02E081DCFBA4E008D7CD5 /* HosyouTests.swift */; };
+		4AD02E091DCFBA4E008D7CD5 /* HosyouPromise.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AD02E081DCFBA4E008D7CD5 /* HosyouPromise.swift */; };
 		4AD02E0B1DCFBA4E008D7CD5 /* Hosyou.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AD02DFD1DCFBA4D008D7CD5 /* Hosyou.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4AD02E181DCFBA69008D7CD5 /* Promise.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AD02E141DCFBA69008D7CD5 /* Promise.swift */; };
+		4AD02E191DCFBA69008D7CD5 /* Promise+Collections.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AD02E151DCFBA69008D7CD5 /* Promise+Collections.swift */; };
+		4AD02E1A1DCFBA69008D7CD5 /* Promise+Dispatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AD02E161DCFBA69008D7CD5 /* Promise+Dispatch.swift */; };
+		4AD02E1B1DCFBA69008D7CD5 /* Promise+Shorthands.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AD02E171DCFBA69008D7CD5 /* Promise+Shorthands.swift */; };
+		4AD02E1E1DCFBCB9008D7CD5 /* Promise+Foundation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AD02E1D1DCFBCB9008D7CD5 /* Promise+Foundation.swift */; };
+		4AD02E201DCFCA68008D7CD5 /* HosyouDispatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AD02E1F1DCFCA68008D7CD5 /* HosyouDispatch.swift */; };
+		4AD02E221DD01074008D7CD5 /* HosyouCollections.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AD02E211DD01074008D7CD5 /* HosyouCollections.swift */; };
+		E0A0656C237B3CE3595CD348 /* Pods_Hosyou.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E582159F53D0DF689434B830 /* Pods_Hosyou.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -23,12 +32,26 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0FFC5C2B7C15A83C6C29D98C /* Pods-HosyouTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HosyouTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HosyouTests/Pods-HosyouTests.debug.xcconfig"; sourceTree = "<group>"; };
+		4084723DA4FCF8CBC7F5D696 /* Pods-Hosyou.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hosyou.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Hosyou/Pods-Hosyou.debug.xcconfig"; sourceTree = "<group>"; };
 		4AD02DFA1DCFBA4D008D7CD5 /* Hosyou.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Hosyou.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4AD02DFD1DCFBA4D008D7CD5 /* Hosyou.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Hosyou.h; sourceTree = "<group>"; };
 		4AD02DFE1DCFBA4D008D7CD5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4AD02E031DCFBA4E008D7CD5 /* HosyouTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HosyouTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		4AD02E081DCFBA4E008D7CD5 /* HosyouTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HosyouTests.swift; sourceTree = "<group>"; };
+		4AD02E081DCFBA4E008D7CD5 /* HosyouPromise.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HosyouPromise.swift; sourceTree = "<group>"; };
 		4AD02E0A1DCFBA4E008D7CD5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4AD02E141DCFBA69008D7CD5 /* Promise.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Promise.swift; sourceTree = "<group>"; };
+		4AD02E151DCFBA69008D7CD5 /* Promise+Collections.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Promise+Collections.swift"; sourceTree = "<group>"; };
+		4AD02E161DCFBA69008D7CD5 /* Promise+Dispatch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Promise+Dispatch.swift"; sourceTree = "<group>"; };
+		4AD02E171DCFBA69008D7CD5 /* Promise+Shorthands.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Promise+Shorthands.swift"; sourceTree = "<group>"; };
+		4AD02E1C1DCFBAA1008D7CD5 /* HosyouExamples.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = HosyouExamples.playground; sourceTree = "<group>"; };
+		4AD02E1D1DCFBCB9008D7CD5 /* Promise+Foundation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Promise+Foundation.swift"; sourceTree = "<group>"; };
+		4AD02E1F1DCFCA68008D7CD5 /* HosyouDispatch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HosyouDispatch.swift; sourceTree = "<group>"; };
+		4AD02E211DD01074008D7CD5 /* HosyouCollections.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HosyouCollections.swift; sourceTree = "<group>"; };
+		BD14475C1413DF98B2B540DD /* Pods-Hosyou.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hosyou.release.xcconfig"; path = "Pods/Target Support Files/Pods-Hosyou/Pods-Hosyou.release.xcconfig"; sourceTree = "<group>"; };
+		D0A6A199751CF5DA6D8C4E33 /* Pods_HosyouTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HosyouTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E582159F53D0DF689434B830 /* Pods_Hosyou.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Hosyou.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6F866F0A117A05400DC3DAF /* Pods-HosyouTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HosyouTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HosyouTests/Pods-HosyouTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +59,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E0A0656C237B3CE3595CD348 /* Pods_Hosyou.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +68,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4AD02E041DCFBA4E008D7CD5 /* Hosyou.framework in Frameworks */,
+				2F0F9CA3CB8200322BCA37B0 /* Pods_HosyouTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -53,9 +78,12 @@
 		4AD02DF01DCFBA4D008D7CD5 = {
 			isa = PBXGroup;
 			children = (
+				4AD02E1C1DCFBAA1008D7CD5 /* HosyouExamples.playground */,
 				4AD02DFC1DCFBA4D008D7CD5 /* Hosyou */,
 				4AD02E071DCFBA4E008D7CD5 /* HosyouTests */,
 				4AD02DFB1DCFBA4D008D7CD5 /* Products */,
+				72EB9C9B333ECA924B4710C2 /* Pods */,
+				4E91F4A3AEC998A864AB908B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -72,6 +100,11 @@
 			isa = PBXGroup;
 			children = (
 				4AD02DFD1DCFBA4D008D7CD5 /* Hosyou.h */,
+				4AD02E141DCFBA69008D7CD5 /* Promise.swift */,
+				4AD02E171DCFBA69008D7CD5 /* Promise+Shorthands.swift */,
+				4AD02E151DCFBA69008D7CD5 /* Promise+Collections.swift */,
+				4AD02E161DCFBA69008D7CD5 /* Promise+Dispatch.swift */,
+				4AD02E1D1DCFBCB9008D7CD5 /* Promise+Foundation.swift */,
 				4AD02DFE1DCFBA4D008D7CD5 /* Info.plist */,
 			);
 			path = Hosyou;
@@ -80,10 +113,32 @@
 		4AD02E071DCFBA4E008D7CD5 /* HosyouTests */ = {
 			isa = PBXGroup;
 			children = (
-				4AD02E081DCFBA4E008D7CD5 /* HosyouTests.swift */,
+				4AD02E081DCFBA4E008D7CD5 /* HosyouPromise.swift */,
+				4AD02E1F1DCFCA68008D7CD5 /* HosyouDispatch.swift */,
+				4AD02E211DD01074008D7CD5 /* HosyouCollections.swift */,
 				4AD02E0A1DCFBA4E008D7CD5 /* Info.plist */,
 			);
 			path = HosyouTests;
+			sourceTree = "<group>";
+		};
+		4E91F4A3AEC998A864AB908B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E582159F53D0DF689434B830 /* Pods_Hosyou.framework */,
+				D0A6A199751CF5DA6D8C4E33 /* Pods_HosyouTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		72EB9C9B333ECA924B4710C2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4084723DA4FCF8CBC7F5D696 /* Pods-Hosyou.debug.xcconfig */,
+				BD14475C1413DF98B2B540DD /* Pods-Hosyou.release.xcconfig */,
+				0FFC5C2B7C15A83C6C29D98C /* Pods-HosyouTests.debug.xcconfig */,
+				F6F866F0A117A05400DC3DAF /* Pods-HosyouTests.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -104,10 +159,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4AD02E0E1DCFBA4E008D7CD5 /* Build configuration list for PBXNativeTarget "Hosyou" */;
 			buildPhases = (
+				B8EAA2AB1109AC0EB8C24FA4 /* [CP] Check Pods Manifest.lock */,
 				4AD02DF51DCFBA4D008D7CD5 /* Sources */,
 				4AD02DF61DCFBA4D008D7CD5 /* Frameworks */,
 				4AD02DF71DCFBA4D008D7CD5 /* Headers */,
 				4AD02DF81DCFBA4D008D7CD5 /* Resources */,
+				7C8153B41814D0C05750731B /* [CP] Copy Pods Resources */,
+				4AD02E231DD012EB008D7CD5 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -122,9 +180,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4AD02E111DCFBA4E008D7CD5 /* Build configuration list for PBXNativeTarget "HosyouTests" */;
 			buildPhases = (
+				DA9BDAA6F0F3F802ABCC6117 /* [CP] Check Pods Manifest.lock */,
 				4AD02DFF1DCFBA4E008D7CD5 /* Sources */,
 				4AD02E001DCFBA4E008D7CD5 /* Frameworks */,
 				4AD02E011DCFBA4E008D7CD5 /* Resources */,
+				723B54C1741EAB3B1ECE279A /* [CP] Embed Pods Frameworks */,
+				74AC1CFA3805686E800C09E4 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -144,11 +205,12 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0810;
 				LastUpgradeCheck = 0810;
-				ORGANIZATIONNAME = hosyou;
+				ORGANIZATIONNAME = flovilmart;
 				TargetAttributes = {
 					4AD02DF91DCFBA4D008D7CD5 = {
 						CreatedOnToolsVersion = 8.1;
 						DevelopmentTeam = 563GTK3Y47;
+						LastSwiftMigration = 0810;
 						ProvisioningStyle = Automatic;
 					};
 					4AD02E021DCFBA4E008D7CD5 = {
@@ -193,11 +255,107 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4AD02E231DD012EB008D7CD5 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if which swiftlint >/dev/null; then\nswiftlint\nelse\necho \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi";
+		};
+		723B54C1741EAB3B1ECE279A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HosyouTests/Pods-HosyouTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		74AC1CFA3805686E800C09E4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HosyouTests/Pods-HosyouTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7C8153B41814D0C05750731B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Hosyou/Pods-Hosyou-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B8EAA2AB1109AC0EB8C24FA4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		DA9BDAA6F0F3F802ABCC6117 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		4AD02DF51DCFBA4D008D7CD5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4AD02E181DCFBA69008D7CD5 /* Promise.swift in Sources */,
+				4AD02E191DCFBA69008D7CD5 /* Promise+Collections.swift in Sources */,
+				4AD02E1A1DCFBA69008D7CD5 /* Promise+Dispatch.swift in Sources */,
+				4AD02E1E1DCFBCB9008D7CD5 /* Promise+Foundation.swift in Sources */,
+				4AD02E1B1DCFBA69008D7CD5 /* Promise+Shorthands.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -205,7 +363,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4AD02E091DCFBA4E008D7CD5 /* HosyouTests.swift in Sources */,
+				4AD02E201DCFCA68008D7CD5 /* HosyouDispatch.swift in Sources */,
+				4AD02E091DCFBA4E008D7CD5 /* HosyouPromise.swift in Sources */,
+				4AD02E221DD01074008D7CD5 /* HosyouCollections.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -321,7 +481,9 @@
 		};
 		4AD02E0F1DCFBA4E008D7CD5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4084723DA4FCF8CBC7F5D696 /* Pods-Hosyou.debug.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 563GTK3Y47;
@@ -334,13 +496,16 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.flovilmart.Hosyou;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
 		4AD02E101DCFBA4E008D7CD5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BD14475C1413DF98B2B540DD /* Pods-Hosyou.release.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 563GTK3Y47;
@@ -359,10 +524,12 @@
 		};
 		4AD02E121DCFBA4E008D7CD5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0FFC5C2B7C15A83C6C29D98C /* Pods-HosyouTests.debug.xcconfig */;
 			buildSettings = {
 				DEVELOPMENT_TEAM = 563GTK3Y47;
 				INFOPLIST_FILE = HosyouTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				OTHER_SWIFT_FLAGS = "$(inherited) \"-D\" \"COCOAPODS\" \"-D\" \"NO_FOUNDATION\"";
 				PRODUCT_BUNDLE_IDENTIFIER = com.flovilmart.HosyouTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
@@ -371,10 +538,12 @@
 		};
 		4AD02E131DCFBA4E008D7CD5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F6F866F0A117A05400DC3DAF /* Pods-HosyouTests.release.xcconfig */;
 			buildSettings = {
 				DEVELOPMENT_TEAM = 563GTK3Y47;
 				INFOPLIST_FILE = HosyouTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				OTHER_SWIFT_FLAGS = "$(inherited) \"-D\" \"COCOAPODS\" \"-D\" \"NO_FOUNDATION\"";
 				PRODUCT_BUNDLE_IDENTIFIER = com.flovilmart.HosyouTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
@@ -400,6 +569,7 @@
 				4AD02E101DCFBA4E008D7CD5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4AD02E111DCFBA4E008D7CD5 /* Build configuration list for PBXNativeTarget "HosyouTests" */ = {
 			isa = XCConfigurationList;
@@ -408,6 +578,7 @@
 				4AD02E131DCFBA4E008D7CD5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -1,0 +1,4 @@
+included:
+ - Hosyou
+disabled_rules:
+ - valid_docs
