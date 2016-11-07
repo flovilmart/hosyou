@@ -5,7 +5,6 @@ env:
 
 before_install:
 - brew update
-- brew outdated carthage || brew upgrade carthage
 - gem install xcpretty --no-rdoc --no-ri --no-document --quiet
 
 script:
