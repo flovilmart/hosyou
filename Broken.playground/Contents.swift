@@ -196,7 +196,7 @@ public class Promise<T> {
     }
 }
 
-
+// Longform notation
 let p = Promise("String").then({ (val) -> Promise<String> in
     return Promise("OtherString")
 }, nil)
