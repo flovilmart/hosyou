@@ -16,7 +16,7 @@ let p = Promise("String").then({ (val) -> Promise<String> in
 // Longform notation, type inference should pick Promise<String> as return type
 let p2 = Promise("String").then({ (val) -> Promise<String> in
     return Promise("OtherString")
-}, nil) // Promise<Promise<String>>
+}, nil) // Promise<String>
 
 // Longform notation, both callback set, typeinference OK
 let p3 = Promise("String").then({ (val) -> Promise<String> in
