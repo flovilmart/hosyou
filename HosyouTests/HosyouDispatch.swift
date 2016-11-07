@@ -6,7 +6,6 @@
 //  Copyright © 2016 Florent Vilmart. All rights reserved.
 //
 
-import XCTest
 @testable import Hosyou
 import Quick
 import Nimble

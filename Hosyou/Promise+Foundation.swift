@@ -7,7 +7,7 @@
 //
 
 import Foundation
-
+import UIKit
 #if !NO_FOUNDATION
 
 extension URLSession {
@@ -31,5 +31,4 @@ extension URLSession {
             }
     }
 }
-
 #endif
