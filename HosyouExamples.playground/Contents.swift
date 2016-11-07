@@ -8,6 +8,14 @@ import Hosyou
 import Foundation
 import PlaygroundSupport
 
+let p = Promise("String").then({ (val) -> Promise<String> in
+    return Promise("OtherString")
+}) // Promise<String>
+
+let p2 = Promise("String").then({ (val) -> Promise<String> in
+    return Promise("OtherString")
+}, nil) // Promise<Promise<String>>
+
 PlaygroundPage.current.needsIndefiniteExecution = true
 //
 //let str = "Hello World!"

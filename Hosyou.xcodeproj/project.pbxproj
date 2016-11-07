@@ -34,6 +34,7 @@
 /* Begin PBXFileReference section */
 		0FFC5C2B7C15A83C6C29D98C /* Pods-HosyouTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HosyouTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HosyouTests/Pods-HosyouTests.debug.xcconfig"; sourceTree = "<group>"; };
 		4084723DA4FCF8CBC7F5D696 /* Pods-Hosyou.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hosyou.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Hosyou/Pods-Hosyou.debug.xcconfig"; sourceTree = "<group>"; };
+		4AC40B041DD0D56F00C1F7CD /* Broken.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Broken.playground; sourceTree = "<group>"; };
 		4AD02DFA1DCFBA4D008D7CD5 /* Hosyou.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Hosyou.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4AD02DFD1DCFBA4D008D7CD5 /* Hosyou.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Hosyou.h; sourceTree = "<group>"; };
 		4AD02DFE1DCFBA4D008D7CD5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -78,6 +79,7 @@
 		4AD02DF01DCFBA4D008D7CD5 = {
 			isa = PBXGroup;
 			children = (
+				4AC40B041DD0D56F00C1F7CD /* Broken.playground */,
 				4AD02E1C1DCFBAA1008D7CD5 /* HosyouExamples.playground */,
 				4AD02DFC1DCFBA4D008D7CD5 /* Hosyou */,
 				4AD02E071DCFBA4E008D7CD5 /* HosyouTests */,
