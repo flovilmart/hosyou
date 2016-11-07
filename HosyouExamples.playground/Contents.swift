@@ -8,15 +8,22 @@ import Hosyou
 import Foundation
 import PlaygroundSupport
 
-// Use shorthand notation
+// Use shorthand notation (defined in Promise+Shorthands.swift), type inference OK
 let p = Promise("String").then({ (val) -> Promise<String> in
     return Promise("OtherString")
 }) // Promise<String>
 
-// Longform notation
+// Longform notation, type inference should pick Promise<String> as return type
 let p2 = Promise("String").then({ (val) -> Promise<String> in
     return Promise("OtherString")
 }, nil) // Promise<Promise<String>>
+
+// Longform notation, both callback set, typeinference OK
+let p3 = Promise("String").then({ (val) -> Promise<String> in
+    return Promise("OtherString")
+}, { (val) -> Promise<String> in
+    return Promise("OtherStringErrored")
+}) // Promise<Promise<String>>
 
 PlaygroundPage.current.needsIndefiniteExecution = true
 //
