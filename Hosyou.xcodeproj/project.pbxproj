@@ -16,8 +16,8 @@
 		4AD02E1A1DCFBA69008D7CD5 /* Promise+Dispatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AD02E161DCFBA69008D7CD5 /* Promise+Dispatch.swift */; };
 		4AD02E1B1DCFBA69008D7CD5 /* Promise+Shorthands.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AD02E171DCFBA69008D7CD5 /* Promise+Shorthands.swift */; };
 		4AD02E1E1DCFBCB9008D7CD5 /* Promise+Foundation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AD02E1D1DCFBCB9008D7CD5 /* Promise+Foundation.swift */; };
-		4AD02E201DCFCA68008D7CD5 /* HosyouDispatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AD02E1F1DCFCA68008D7CD5 /* HosyouDispatch.swift */; };
-		4AD02E221DD01074008D7CD5 /* HosyouCollections.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AD02E211DD01074008D7CD5 /* HosyouCollections.swift */; };
+		4AD02E201DCFCA68008D7CD5 /* HosyouCollections.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AD02E1F1DCFCA68008D7CD5 /* HosyouCollections.swift */; };
+		4AD02E221DD01074008D7CD5 /* HosyouDispatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AD02E211DD01074008D7CD5 /* HosyouDispatch.swift */; };
 		E0A0656C237B3CE3595CD348 /* Pods_Hosyou.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E582159F53D0DF689434B830 /* Pods_Hosyou.framework */; };
 /* End PBXBuildFile section */
 
@@ -46,8 +46,8 @@
 		4AD02E171DCFBA69008D7CD5 /* Promise+Shorthands.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Promise+Shorthands.swift"; sourceTree = "<group>"; };
 		4AD02E1C1DCFBAA1008D7CD5 /* HosyouExamples.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = HosyouExamples.playground; sourceTree = "<group>"; };
 		4AD02E1D1DCFBCB9008D7CD5 /* Promise+Foundation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Promise+Foundation.swift"; sourceTree = "<group>"; };
-		4AD02E1F1DCFCA68008D7CD5 /* HosyouDispatch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HosyouDispatch.swift; sourceTree = "<group>"; };
-		4AD02E211DD01074008D7CD5 /* HosyouCollections.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HosyouCollections.swift; sourceTree = "<group>"; };
+		4AD02E1F1DCFCA68008D7CD5 /* HosyouCollections.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HosyouCollections.swift; sourceTree = "<group>"; };
+		4AD02E211DD01074008D7CD5 /* HosyouDispatch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HosyouDispatch.swift; sourceTree = "<group>"; };
 		BD14475C1413DF98B2B540DD /* Pods-Hosyou.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hosyou.release.xcconfig"; path = "Pods/Target Support Files/Pods-Hosyou/Pods-Hosyou.release.xcconfig"; sourceTree = "<group>"; };
 		D0A6A199751CF5DA6D8C4E33 /* Pods_HosyouTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HosyouTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E582159F53D0DF689434B830 /* Pods_Hosyou.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Hosyou.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -114,8 +114,8 @@
 			isa = PBXGroup;
 			children = (
 				4AD02E081DCFBA4E008D7CD5 /* HosyouPromise.swift */,
-				4AD02E1F1DCFCA68008D7CD5 /* HosyouDispatch.swift */,
-				4AD02E211DD01074008D7CD5 /* HosyouCollections.swift */,
+				4AD02E1F1DCFCA68008D7CD5 /* HosyouCollections.swift */,
+				4AD02E211DD01074008D7CD5 /* HosyouDispatch.swift */,
 				4AD02E0A1DCFBA4E008D7CD5 /* Info.plist */,
 			);
 			path = HosyouTests;
@@ -363,9 +363,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4AD02E201DCFCA68008D7CD5 /* HosyouDispatch.swift in Sources */,
+				4AD02E201DCFCA68008D7CD5 /* HosyouCollections.swift in Sources */,
 				4AD02E091DCFBA4E008D7CD5 /* HosyouPromise.swift in Sources */,
-				4AD02E221DD01074008D7CD5 /* HosyouCollections.swift in Sources */,
+				4AD02E221DD01074008D7CD5 /* HosyouDispatch.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
